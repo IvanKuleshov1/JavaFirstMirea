@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt6;
+
 public class TestMovable {
     public static void main(String[] args) {
         MovablePoint topLeft = new MovablePoint(0,0,5,5);

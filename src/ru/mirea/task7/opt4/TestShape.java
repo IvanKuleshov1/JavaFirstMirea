@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt4;
+
 public class TestShape {
     public static void main(String[] args) {
         Shape s1 = new Circle( "RED", false,5.5); // Upcast Circle to Shape

@@ -1,3 +1,5 @@
+package ru.mirea.task6.opt2;
+
 public class Product implements Priceable{
     private String name;
     private int cost;

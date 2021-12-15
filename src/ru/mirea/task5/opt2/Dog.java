@@ -1,8 +1,14 @@
+package ru.mirea.task5.opt2;
+
 public abstract class Dog {
     private String name;
     private String dogBreed;
     private int weight;
     private String colour;
+
+    public Dog() {
+
+    }
 
     public String getColour() {
         return colour;

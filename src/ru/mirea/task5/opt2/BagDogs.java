@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt2;
+
 public class BagDogs extends Dog{
     private int btyPoints;
 

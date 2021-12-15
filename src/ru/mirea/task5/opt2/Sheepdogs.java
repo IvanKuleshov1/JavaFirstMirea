@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt2;
+
 public class Sheepdogs extends Dog{
     private int skillPoints;
     private int intPoints;

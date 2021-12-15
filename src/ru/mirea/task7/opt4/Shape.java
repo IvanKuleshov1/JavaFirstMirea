@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt4;
+
 public abstract class Shape {
     protected String colour;
     protected boolean filled;

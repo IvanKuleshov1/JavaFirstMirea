@@ -1,3 +1,5 @@
+package ru.mirea.task6.opt2;
+
 public class Main {
     public static void main(String[] args) {
         Product bread = new Product("Хлеб", 45);

@@ -1,4 +1,4 @@
-//package ru.mirea.task7.opt3.src;
+package ru.mirea.task7.opt3;
 
 public class TestShape {
     public static void main(String[] args) {

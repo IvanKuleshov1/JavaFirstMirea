@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt4;
+
 public class Square extends Rectangle{
     protected double side;
     public Square() {

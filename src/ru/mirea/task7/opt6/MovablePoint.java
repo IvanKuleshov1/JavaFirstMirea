@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt6;
+
 public class MovablePoint implements Movable{
     protected int x;
     protected int y;

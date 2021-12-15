@@ -1,3 +1,5 @@
+package ru.mirea.task2.opt5;
+
 public class Dog {
     private int age;
     private String name;

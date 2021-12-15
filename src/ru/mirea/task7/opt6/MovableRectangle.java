@@ -1,3 +1,5 @@
+package ru.mirea.task7.opt6;
+
 public class MovableRectangle extends MovablePoint implements Movable{
     private MovablePoint topLeft;
     private MovablePoint bottomRight;

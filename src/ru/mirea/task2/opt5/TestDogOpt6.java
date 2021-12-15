@@ -1,13 +1,23 @@
+package ru.mirea.task2.opt5;
+
+import ru.mirea.task5.opt2.Dog;
+
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
 
-public class TestDogOpt6 extends Dog{
+public class TestDogOpt6 extends Dog {
 
 
 
     public TestDogOpt6() {
+        super();
+    }
+
+    @Override
+    public void TellUsAboutThisDog() {
+
     }
 
     public static void main(String[] args) {
@@ -26,7 +36,7 @@ public class TestDogOpt6 extends Dog{
             Scanner sc1 = new Scanner(System.in);
             System.out.println("Введите возраст собаки: ");
             Scanner sc2 = new Scanner(System.in);
-            dogie.add(new Dog(sc1.next(), sc2.nextInt()));
+            //dogie.add(new Dog(sc1.next(), sc2.nextInt()));
             System.out.println("Хотите добавить в массив еще одну собаку? (да или нет) ");
             Scanner sc3 = new Scanner(System.in);
             String next = sc3.next();
