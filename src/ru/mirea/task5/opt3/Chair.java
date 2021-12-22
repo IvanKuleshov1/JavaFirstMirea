@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt3;
+
 public class Chair extends Furniture{
     private int cmfrtPoints;
 

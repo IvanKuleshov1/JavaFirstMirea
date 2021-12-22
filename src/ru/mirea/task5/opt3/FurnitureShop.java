@@ -1,5 +1,7 @@
-import java.util.Scanner;
+package ru.mirea.task5.opt3;
 
+
+import java.util.Scanner;
 public class FurnitureShop {
     public static void main(String[] args) {
         Furniture bedBig = new Bed("Королевская кровать", 320, "Дерево и сталь", 456356256, 2, "Белый");

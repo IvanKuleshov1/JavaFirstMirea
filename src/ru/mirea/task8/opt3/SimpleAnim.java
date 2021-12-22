@@ -1,4 +1,4 @@
-package ru.mirea.task8;
+package ru.mirea.task8.opt3;
 
 import java.awt.*;
 import java.awt.event.*;
@@ -10,7 +10,7 @@ class SimpleAnim extends Frame {
         super(s);
         MediaTracker tr = new MediaTracker(this);
         for (int k = 0; k < 44; k++) {
-            img[k] = getToolkit().getImage(/*"src/" + "ru/" + "mirea/" + "task8/" + */(k + 1) + ".gif");//src/ru/mirea/task8/43.gif
+            img[k] = getToolkit().getImage("src/" + "ru/" + "mirea/" + "task8/" + "opt3/" + (k + 1) + ".gif");//src/ru/mirea/task8/43.gif
             tr.addImage(img[k], 0);
             try {
                 tr.waitForAll(); // Ждем загрузки всех изображений

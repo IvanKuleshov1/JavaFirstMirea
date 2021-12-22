@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt3;
+
 public class Table extends Furniture{
     private int legNum;
     private int sizePoints;

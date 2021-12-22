@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt3;
+
 public abstract  class Furniture {
     private String name;
     private int cost;

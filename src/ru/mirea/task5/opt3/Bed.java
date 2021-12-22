@@ -1,3 +1,5 @@
+package ru.mirea.task5.opt3;
+
 public class Bed extends Furniture{
     private int slprsNum;
     private String colour;
